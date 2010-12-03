@@ -55,7 +55,7 @@
 					"presentation" : 1,
 					"id" : "obj-3",
 					"numinlets" : 0,
-					"name" : "ARC-Panel-Decks-Single-Sends-0.0.0-001-r2.maxpat",
+					"name" : "DJ-ControllerFG.Panel.Deck.Single.Sends.maxpat",
 					"numoutlets" : 0
 				}
 
@@ -220,8 +220,8 @@
 			"obj-46::obj-189" : [ "live.text[2]", "live.text", 0 ],
 			"obj-46::obj-176::obj-111" : [ "live.text[16]", "live.text[6]", 0 ],
 			"obj-46::obj-176::obj-114" : [ "live.text[19]", "live.text[6]", 0 ],
-			"obj-3::obj-62" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-46::obj-191" : [ "live.text[4]", "live.text", 0 ],
+			"obj-3::obj-62" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-46::obj-192" : [ "live.text[5]", "live.text", 0 ],
 			"obj-4::obj-62" : [ "High Gain", "HiGain", 51 ],
 			"obj-4::obj-61" : [ "Mid Gain", "MidGain", 50 ],
