@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ -33.0, 44.0, 1313.0, 332.0 ],
+		"rect" : [ 0.0, 44.0, 1313.0, 332.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -33.0, 44.0, 1313.0, 332.0 ],
+		"defrect" : [ 0.0, 44.0, 1313.0, 332.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -19,20 +19,6 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
-					"presentation_rect" : [ 1160.0, 3.0, 120.0, 125.0 ],
-					"args" : [ "#1" ],
-					"patching_rect" : [ 720.0, 0.0, 80.0, 128.0 ],
-					"presentation" : 1,
-					"id" : "obj-3",
-					"name" : "DJ-ControllerFG.Panel.Deck.Single.Sends.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
 					"varname" : "#1-Looper",
@@ -137,17 +123,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-7", 0 ],
-					"destination" : [ "obj-11", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-6", 0 ],
-					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-2", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -164,8 +141,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
-					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"source" : [ "obj-7", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ]
 				}
@@ -173,26 +159,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-46::obj-176::obj-130" : [ "live.text[22]", "live.text[6]", 0 ],
 			"obj-46::obj-76" : [ "live.text[1]", "live.text", 0 ],
+			"obj-46::obj-176::obj-130" : [ "live.text[22]", "live.text[6]", 0 ],
 			"obj-46::obj-176::obj-124" : [ "live.text[20]", "live.text[6]", 0 ],
 			"obj-46::obj-176::obj-123" : [ "live.text[24]", "live.text[6]", 0 ],
 			"obj-46::obj-191" : [ "live.text[4]", "live.text", 0 ],
 			"obj-46::obj-192" : [ "live.text[5]", "live.text", 0 ],
 			"obj-46::obj-176::obj-114" : [ "live.text[19]", "live.text[6]", 0 ],
-			"obj-3::obj-64" : [ "live.dial[3]", "live.dial", 0 ],
 			"obj-46::obj-176::obj-132" : [ "live.text[21]", "live.text[6]", 0 ],
 			"obj-46::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-46::obj-176::obj-111" : [ "live.text[16]", "live.text[6]", 0 ],
 			"obj-46::obj-176::obj-117" : [ "live.text[23]", "live.text[6]", 0 ],
-			"obj-3::obj-63" : [ "live.dial[2]", "live.dial", 0 ],
 			"obj-46::obj-176::obj-115" : [ "live.text[18]", "live.text[6]", 0 ],
 			"obj-46::obj-60" : [ "live.text", "live.text", 0 ],
 			"obj-46::obj-189" : [ "live.text[2]", "live.text", 0 ],
 			"obj-46::obj-176::obj-116" : [ "live.text[25]", "live.text[6]", 0 ],
-			"obj-3::obj-61" : [ "live.dial", "live.dial", 0 ],
 			"obj-46::obj-36" : [ "0-loop-button", "live.text", 0 ],
-			"obj-3::obj-62" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-46::obj-176::obj-127" : [ "live.text[17]", "live.text[6]", 0 ],
 			"obj-46::obj-32" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-46::obj-190" : [ "live.text[3]", "live.text", 0 ]
